@@ -36,6 +36,7 @@ const questions =
       type: 'input',
       message: 'Contributers? If there are none then press enter',
       name: 'contributers',
+    
     },
     {
       type: 'input',
@@ -75,7 +76,7 @@ function init() {
     .then((data) => {  
       console.log(data)
       writeToFile(data);
-    
+      console.log(licenseLink)
     
       // Use user feedback for... whatever!!
       

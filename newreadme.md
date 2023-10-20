@@ -1,8 +1,11 @@
-[Project Title] # Project Title
-kdkd
-## Insallation
+  
+# Project Title
 
-dkkdkd
+kdkd
+
+## Installation
+
+kkd
 
 ## Contributers
 
@@ -10,12 +13,12 @@ undefined
 
 ## License
 
-GPL
+MIT
 
 ## Github name
 
-ian
+idk
 
 ## email  
 
-turtle
+kdkd
