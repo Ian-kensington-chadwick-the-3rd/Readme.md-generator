@@ -25,18 +25,18 @@ const questions =
         validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
     },
     {
+      type: 'input',
+      message: 'Description about your project?',
+      name: 'Desc',
+      validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
+  },
+    {
         type: 'list',
         message: 'please choose a license!',
         name: 'license',
-        choices:['MIT', 'BSD-3-Clause', 'Apache', 'GPL'],
+        choices:['MIT', 'BSD-3-Clause', 'Apache', 'GPL', 'none'],
         validate: (data)=>{ if(data) {return true} else{return 'you have to choose a license!!!'}} 
 
-    },
-    {
-      type: 'input',
-      message: 'Contributers? If there are none then press enter',
-      name: 'contributers',
-    
     },
     {
       type: 'input',
@@ -50,7 +50,12 @@ const questions =
       name: 'installation',
       validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
     },
-
+    {
+      type: 'input',
+      message: 'any Test?',
+      name: 'test',
+      validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
+    },
    
 ];
  
@@ -59,15 +64,12 @@ const questions =
 //  fs write file to write to readme.md file
  function writeToFile(data) {
   
-   fs.writeFile('newreadme.md', generateMarkdown(data), (err) => {
+   fs.writeFile('./newReadme/readme.md', generateMarkdown(data), (err) => {
      if (err) throw err;
        console.log('The file has been saved!');
      
-    });
-
-  
-
- }
+     });
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -76,7 +78,7 @@ function init() {
     .then((data) => {  
       console.log(data)
       writeToFile(data);
-      console.log(licenseLink)
+      
     
       // Use user feedback for... whatever!!
       
@@ -89,6 +91,7 @@ function init() {
       } else {
         // Something else went wrong
         console.log('Something else went wrong')
+        console.error(error)
       }
     })  
 };
