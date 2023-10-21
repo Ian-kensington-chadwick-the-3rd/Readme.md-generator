@@ -1,9 +1,17 @@
 # Readme.md-generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-
 
 ![readme.md-generator](./images/readme%20generator%20gif.gif)
+
+
+## Table of Contents
+
+* [Installation](#installation)
+* [questions](#questions)
+* [LicenseSection](#license-section)
+* [test](#test)
+* [Description](#description)
+* [toolsused](#tools-used)
 
 
 ## Description
@@ -26,14 +34,7 @@ Readme.md-generator also utilizes file system or filesystem (often abbreviated t
      
      ![filessystemexample](./images/file%20system.PNG)
 
-## Table of Contents
 
-* [Installation](#installation)
-* [questions](#questions)
-* [LicenseSection](#license-section)
-* [test](#test)
-* [Description](#description)
-* [toolsused](#tools-used)
 
 ## tools used
 [![Static Badge](https://img.shields.io/badge/node.js-red)](https://nodejs.org/en/download) 
@@ -51,7 +52,7 @@ Readme.md-generator also utilizes file system or filesystem (often abbreviated t
 ## Questions
 
 
-Made by:    [![Static Badge](https://img.shields.io/badge/Ian_kensington_chadwick_the_3rd-2023_portfolio-blue)](https://github.com/Ian-kensington-chadwick-the-3rd)
+Made by:    [![Static Badge](https://img.shields.io/badge/Ian_kensington_chadwick_the_3rd-2023_portfolio-blue)](https://ian-kensington-chadwick-the-3rd.github.io/IanSills-portfolio/)
 
 If you have any questions you can reach me at: iansills04@gmail.com
 
