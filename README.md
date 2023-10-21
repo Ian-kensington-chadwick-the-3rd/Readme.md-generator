@@ -64,6 +64,6 @@ N/A
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-This project is licensed under the MIT license for more information click on the badge
+This project is licensed under the MIT license for more information click on the badge.
 
-rip my code as much as you want If I can help anyone struggling I would be glad
+rip my code as much as you want If I can help anyone struggling I would be glad, been there done that.
