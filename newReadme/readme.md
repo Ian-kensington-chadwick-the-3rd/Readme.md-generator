@@ -1,19 +1,20 @@
   
-# Project Title: ian 
+# Project Title: readme generator 
 
- 
-# Description
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 
-ain
+## Description
+
+
+it generates readme 
 
 
 
 ## Table of Contents
 
 * [Installation](#installation)
-* [Contributers](#contributers)
-* [ProjectTitle](#project-title)
+* [Contributers](#questions)
 * [LicenseSection](#license-section)
 * [test](#test)
 * [Description](#description)
@@ -24,23 +25,23 @@ ain
 
 ## Installation
 
-kdkd
+github clone
 
-## Contributers
+## Questions
 
 
-Made by: ina
+Made by: ian-kensington
 
-If you have any questions you can reach me at: ian
+If you have any questions you can reach me at: iansills04@gmail.com
 
 ## test
 
-dkkd
+N/A
 
 # License Section
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-This project is licensed under the MIT license
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT license for more information click on the badge

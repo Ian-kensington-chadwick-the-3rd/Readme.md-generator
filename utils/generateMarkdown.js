@@ -28,36 +28,6 @@ function renderLicenseBadge(license) {
 // returns a string that is a link
 
 
-// function renderLicenseLink(license) {
-    // the link should be formatted like this: * [License](#license)
-    // and it will only render if the user chose a license
-    // if license === 'none'
-    // return
-    // else return the link 
-    //  console.log(license)
-    // if (license === 'none') {
-    //     return ''
-    // }     
-//     } else {
-//          return '* [License](#license)'
-//  }
-
-//     var lincenseLink = [];
-//   if ('BSD-3-Clause' == license ){
-//       lincenseLink.push('[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]');
-//   } else if  ('MIT' == license){
-//       lincenseLink.push('![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]');
-//   } else if ('Apache' == license){
-//       lincenseLink.push('[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]');
-//   } if ('GPL' == license){
-//       lincenseLink.push('[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)]');
-//   } else {
-//     return
-//   }
-//    return lincenseLink;
-};
-
-
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 // create a conditional to check if there is a license
@@ -74,7 +44,7 @@ function renderLicenseSection(license) {
         return ''
     } else {
         return `
-This project is licensed under the ${license} license`
+This project is licensed under the ${license} license for more information click on the badge`
     }
  
 };
@@ -87,8 +57,10 @@ function generateMarkdown(data) {
 return `  
 # Project Title: ${data.title} 
 
- 
-# Description
+${renderLicenseBadge(data.license)} 
+
+
+## Description
 
 
 ${data.Desc}
@@ -98,7 +70,7 @@ ${data.Desc}
 ## Table of Contents
 
 * [Installation](#installation)
-* [Contributers](#contributers)
+* [questions](#questions)
 * [LicenseSection](#license-section)
 * [test](#test)
 * [Description](#description)
@@ -111,7 +83,7 @@ ${data.Desc}
 
 ${data.installation}
 
-## Contributers
+## Questions
 
 
 Made by: ${data.Githubname}
@@ -124,10 +96,10 @@ ${data.test}
 
 # License Section
 
+${renderLicenseBadge(data.license)} 
+
+
 ${renderLicenseSection(data.license)}
-
-
-${renderLicenseBadge(data.license)}
 `
 
 };
