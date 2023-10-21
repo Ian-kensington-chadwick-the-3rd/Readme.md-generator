@@ -1,5 +1,5 @@
   
-# Project Title: readme generator 
+# Project Title: readme 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -7,14 +7,14 @@
 ## Description
 
 
-it generates readme 
+it generates readmes
 
 
 
 ## Table of Contents
 
 * [Installation](#installation)
-* [Contributers](#questions)
+* [questions](#questions)
 * [LicenseSection](#license-section)
 * [test](#test)
 * [Description](#description)
@@ -25,7 +25,7 @@ it generates readme
 
 ## Installation
 
-github clone
+gitclone through git hub
 
 ## Questions
 

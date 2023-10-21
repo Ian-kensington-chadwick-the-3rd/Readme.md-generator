@@ -3,10 +3,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 
+![readme.md-generator](./images/readme%20generator%20gif.gif)
+
+
 ## Description
 
 
-It generates a readme using node, inquire, and file system.
+Readme.md-generator generates a readme using inquirer to use your terminal as an answer/qestions system if you would like to know more about inquirer 
+go here https://www.npmjs.com/package/inquirer/v/8.2.4 . 
+Readme.md-generator also utilizes file system or filesystem (often abbreviated to fs) which is a method and data structure that the operating system uses to control how data is stored and retrieved. if you would like to know please go here https://en.wikipedia.org/wiki/File_system .
 
 
 
@@ -24,12 +29,13 @@ It generates a readme using node, inquire, and file system.
 
 ## Installation
 
-download it from github
+To install Readme.md-generator you need to `git clone git@github.com:Ian-kensington-chadwick-the-3rd/Readme.md-generator.git`.
+
 
 ## Questions
 
 
-Made by: ian-kensington-chadwick-the-3rd
+Made by: https://github.com/Ian-kensington-chadwick-the-3rd
 
 If you have any questions you can reach me at: iansills04@gmail.com
 
