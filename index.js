@@ -40,6 +40,12 @@ const questions =
     },
     {
       type: 'input',
+      message: 'what tools did you use to make your project?',
+      name: 'tool',
+      validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
+    },
+    {
+      type: 'input',
       message: 'how would I go about using your project? *usage',
       name: 'usage',
       validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 

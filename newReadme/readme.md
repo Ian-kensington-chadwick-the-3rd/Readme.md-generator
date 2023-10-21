@@ -1,5 +1,5 @@
   
-# Project Title: readme 
+# Project Title: Readme.md-generator 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -7,7 +7,7 @@
 ## Description
 
 
-it generates readmes
+my project generates readmes
 
 
 
@@ -21,16 +21,18 @@ it generates readmes
 
 
 
+## tools used
 
+node.js, inquire, filesystem
 
 ## Installation
 
-gitclone through git hub
+git clone from github
 
 ## Questions
 
 
-Made by: ian-kensington
+Made by: ian-kensington-chadwick-the-3rd
 
 If you have any questions you can reach me at: iansills04@gmail.com
 
