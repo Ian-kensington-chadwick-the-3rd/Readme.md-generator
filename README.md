@@ -14,10 +14,11 @@
 * [toolsused](#tools-used)
 
 
+
 ## Description
 
 
-Readme.md-generator generates a readme using inquirer to use your terminal as an answer/qestions system if you would like to know more about inquirer 
+Readme.md-generator generates a readme using inquirer to use your terminal as an answer/questions system if you would like to know more about inquirer 
 go here https://www.npmjs.com/package/inquirer/v/8.2.4 . 
 Readme.md-generator also utilizes file system or filesystem (often abbreviated to fs) which is a method and data structure that the operating system uses to control how data is stored and retrieved. if you would like to know please go here https://en.wikipedia.org/wiki/File_system .
 
